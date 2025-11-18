@@ -1,17 +1,16 @@
 body {
   background-color: #70c5ce;
-  background-image: url("flappybirdbg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 #board {
   border: 2px solid black;
-  background-color: lightgreen;
+  background-image: url("flappybirdbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
